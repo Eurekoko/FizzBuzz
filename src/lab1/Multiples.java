@@ -1,6 +1,6 @@
 package lab1;
 
-class Multiples{
+public class Multiples{
     public static int multiples(int n, int a, int b) {
         int i = 1;
         int count = 0;
