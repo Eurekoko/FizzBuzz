@@ -12,6 +12,9 @@ public class Multiples{
         }
         return count;
     }
+    public static int multiples() {
+        return multiples(1000, 3, 5);
+    }
 
     public static void main(String[] args) {
         System.out.println(multiples(1000, 3, 5));
